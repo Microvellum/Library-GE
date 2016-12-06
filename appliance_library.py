@@ -76,13 +76,6 @@ class PRODUCT_GE_CSCP5UGXSS_DC(appliance_classes.Static_Wall_Appliance):
         self.assembly_name = "GE_CSCP5UGXSS_DC"
         self.appliance_path = os.path.join(REFIGERATORS_PATH,"GE_CSCP5UGXSS_DC.blend")
               
-class PRODUCT_GE_GFE29HSDSS_DC(appliance_classes.Static_Wall_Appliance):
-    
-    def __init__(self):
-        self.category_name = "Refrigerators"
-        self.assembly_name = "GE_GFE29HSDSS_DC"
-        self.appliance_path = os.path.join(REFIGERATORS_PATH,"GE_GFE29HSDSS_DC.blend")
-              
 class PRODUCT_GE_PGCS1NFZSS_DC(appliance_classes.Static_Wall_Appliance):
     
     def __init__(self):
